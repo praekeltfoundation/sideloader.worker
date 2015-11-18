@@ -1,3 +1,5 @@
 rhumba
 Twisted
 redis
+psycopg2
+pyopenssl

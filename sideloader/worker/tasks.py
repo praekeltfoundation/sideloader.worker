@@ -9,8 +9,7 @@ import traceback
 from email.MIMEText import MIMEText
 from email.MIMEMultipart import MIMEMultipart
 
-from sideloader import specter, slack, task_db
-from skeleton import settings
+from sideloader.worker import  task_db
 
 from twisted.mail.smtp import sendmail
 from twisted.internet import defer, reactor, protocol
