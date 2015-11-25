@@ -1,6 +1,6 @@
 import time
 
-from twisted.internet import defer, reactor, protocol
+from twisted.internet import defer
 from twisted.python import log
 from twisted.enterprise import adbapi
 
